@@ -1,0 +1,16 @@
+.new-recipe {
+    width: 100%;
+    vertical-align: baseline;
+}
+.recipe-name {
+    font-size: 1em;
+}
+.display-inline {
+    display: inline-block;
+}
+
+@media (min-width: 335px) {
+    .new-recipe {
+        vertical-align: middle;
+    }
+}

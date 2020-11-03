@@ -1,7 +1,5 @@
-.center {
+.title {
+    width: 100%;
     text-align: center;
-}
-
-.left {
-    text-align: left;
+    position: absolute;
 }

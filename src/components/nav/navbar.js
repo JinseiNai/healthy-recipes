@@ -1,24 +1,28 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './navbar.css';
 
 function NavigationBar() {
     return (
         <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
-            <Navbar.Brand className="center">Healthy Recipes</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav" className="left">
-                <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#about">About</Nav.Link>
-                    <NavDropdown title="Recipes" id="collapsible-nav-dropdown">
-                        <NavDropdown.Item href="#breakfast">Breakfast</NavDropdown.Item>
-                        <NavDropdown.Item href="#lunch">Lunch</NavDropdown.Item>
-                        <NavDropdown.Item href="#dinner">Dinner</NavDropdown.Item>
-                    </NavDropdown>
-                </Nav>
-            </Navbar.Collapse>
-            
+            <Row>
+                <Navbar.Brand className="title">Healthy Recipes</Navbar.Brand>
+                <Col xs={{ span: 3, order: 'first' }}>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="mr-auto">
+                            <Nav.Link><Link to="/">Home</Link></Nav.Link>
+                            <Nav.Link><Link to="/about">About</Link></Nav.Link>
+                            <NavDropdown title="Recipes" id="collapsible-nav-dropdown">
+                                <NavDropdown.Item><Link to="/breakfast">Breakfast</Link></NavDropdown.Item>
+                                <NavDropdown.Item><Link to="/lunch">Lunch</Link></NavDropdown.Item>
+                                <NavDropdown.Item><Link to="/dinner">Dinner</Link></NavDropdown.Item>
+                            </NavDropdown>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Col>
+            </Row>
         </Navbar>
     )
 }
