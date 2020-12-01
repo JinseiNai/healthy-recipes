@@ -1,0 +1,42 @@
+.recipe-box {
+    border: 1px solid black;
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.recipe-box a:link {
+    text-decoration: none;
+}
+
+.recipe-list-image {
+    height: 10rem;
+}
+
+.category-title {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.recipe-image {
+    height: 10rem;
+}
+
+.inline {
+    display: inline-block;
+}
+
+/* Media Queries */
+/* Tablet 768px */
+@media (min-width: 768px) {
+    .recipe-image {
+        height: 20rem;
+    }
+}
+
+/* Large Screen  1024px */
+@media (min-width: 1024px) {
+    .recipe-image {
+        height: 25rem;
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/healthy-recipes/static/css/main.3525051e.chunk.css",
+    "main.js": "/healthy-recipes/static/js/main.25d9c8d0.chunk.js",
+    "main.js.map": "/healthy-recipes/static/js/main.25d9c8d0.chunk.js.map",
+    "runtime-main.js": "/healthy-recipes/static/js/runtime-main.b09ed11e.js",
+    "runtime-main.js.map": "/healthy-recipes/static/js/runtime-main.b09ed11e.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/healthy-recipes/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.a8f3fbbe.chunk.js": "/healthy-recipes/static/js/2.a8f3fbbe.chunk.js",
+    "static/js/2.a8f3fbbe.chunk.js.map": "/healthy-recipes/static/js/2.a8f3fbbe.chunk.js.map",
+    "static/js/3.1880f0dd.chunk.js": "/healthy-recipes/static/js/3.1880f0dd.chunk.js",
+    "static/js/3.1880f0dd.chunk.js.map": "/healthy-recipes/static/js/3.1880f0dd.chunk.js.map",
+    "index.html": "/healthy-recipes/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/healthy-recipes/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.3525051e.chunk.css.map": "/healthy-recipes/static/css/main.3525051e.chunk.css.map",
+    "static/js/2.a8f3fbbe.chunk.js.LICENSE.txt": "/healthy-recipes/static/js/2.a8f3fbbe.chunk.js.LICENSE.txt",
+    "static/media/broiled-salmon-herb-mustard.2520780b.jpeg": "/healthy-recipes/static/media/broiled-salmon-herb-mustard.2520780b.jpeg",
+    "static/media/healthy-eggs-benedict.1afaa388.jpg": "/healthy-recipes/static/media/healthy-eggs-benedict.1afaa388.jpg",
+    "static/media/herbed-chicken-marsala.b533db4d.jpg": "/healthy-recipes/static/media/herbed-chicken-marsala.b533db4d.jpg",
+    "static/media/lemon-garlic-shrimp-grits.c63a2ba0.jpeg": "/healthy-recipes/static/media/lemon-garlic-shrimp-grits.c63a2ba0.jpeg",
+    "static/media/pan-fried-tilapia.5ee592fc.jpg": "/healthy-recipes/static/media/pan-fried-tilapia.5ee592fc.jpg",
+    "static/media/pan-seared-salmon.efaa855d.jpeg": "/healthy-recipes/static/media/pan-seared-salmon.efaa855d.jpeg",
+    "static/media/rib-eye-steak-potatoes.9959e206.jpg": "/healthy-recipes/static/media/rib-eye-steak-potatoes.9959e206.jpg",
+    "static/media/slow-cooker-pork-tacos.8db9e86c.jpeg": "/healthy-recipes/static/media/slow-cooker-pork-tacos.8db9e86c.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b09ed11e.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.a8f3fbbe.chunk.js",
+    "static/css/main.3525051e.chunk.css",
+    "static/js/main.25d9c8d0.chunk.js"
+  ]
+}
