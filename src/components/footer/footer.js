@@ -4,8 +4,8 @@ import './footer.css';
 
 function Footer() {
     return (
-        <Card className="text-center footer">
-            <Card.Footer className="text-muted footer-text">Healthy Recipes &copy; Copyright 2020. All Rights Reserved</Card.Footer>
+        <Card className="text-center footer" style={{backgroundColor: '#97ABB1'}}>
+            <Card.Footer className="footer-text">Healthy Recipes &copy; Copyright 2020. All Rights Reserved</Card.Footer>
         </Card>
     )
 }

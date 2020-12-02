@@ -16,7 +16,7 @@ class Feature extends React.Component {
     }
     render() {
         return (
-            <Card className="featured">
+            <Card className="featured" style={{backgroundColor: '#ffba93'}}>
                 <Link to="/healthy-recipes/lunch/herbed-chicken-marsala">
                     <Card.Header>Featured Dish of the Month</Card.Header>
                     <Card.Img src={chicken} alt={this.state.alt} className="featured-img" />

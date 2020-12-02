@@ -33,6 +33,9 @@ img {
 .display-inline {
     display: inline-block;
 }
+.hr {
+    border: 1px solid gray;
+}
 
 /* Media Queries */
 @media (min-width: 335px) {
@@ -40,21 +43,27 @@ img {
         vertical-align: middle;
     }
 }
+
 /* Tablet 768px */
 @media (min-width: 768px) {
-    .featured {
+    .featured,
+    .new-recipe-div {
         width: 75%;
     }
+
     .featured-img {
         max-height: 15rem;
     }
+
     .new-image {
         height: 8rem;
     }
 }
+
 /* Laptop 1024px */
 @media (min-width: 1024px) {
-    .featured {
+    .featured,
+    .new-recipe-div {
         width: 60%;
     }
 }

@@ -1,8 +1,18 @@
 /* Fixed Footer */
 .content {
   min-height: calc(100vh - 44px);
+  /* background-color: #D5E7EC; */
 }
 
 .footer {
   height: 44px;
+}
+
+h1, h2, h3 {
+  font-family: 'Do Hyeon', sans-serif;
+  letter-spacing: .5px;
+}
+
+p, li {
+  font-family: 'Montserrat Alternates', sans-serif;
 }

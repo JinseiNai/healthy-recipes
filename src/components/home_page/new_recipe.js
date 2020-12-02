@@ -38,16 +38,16 @@ class NewRecipe extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="new-recipe-div">
                 <h2>Newly Added Recipes</h2>
-                <hr></hr>
+                <hr className="hr"></hr>
                 <Row>
                     {this.state.newRecipes.map(recipe => (
                         <Link to={'/healthy-recipes/' + (recipe.category + '/' + recipe.name.replaceAll(' ','-').toLowerCase())} className="new-recipe">
-                            <Col xs={4} className="display-inline">
+                            <Col xs={5} className="display-inline">
                                 <Image className="new-image" src={recipe.image} alt={recipe.alt} rounded />
                             </Col>
-                            <Col xs={8} className="display-inline">
+                            <Col xs={7} className="display-inline">
                                 <h4 className="recipe-name">{recipe.name}</h4>
                                 {/* <p>{this.state.Description01}</p> */}
                             </Col>

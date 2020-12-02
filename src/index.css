@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  background-image: linear-gradient(to right, #80B5C6,#D5E7EC, #80B5C6)
+}

@@ -23,7 +23,7 @@ class LemonGarlicShrimpGrits extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="recipe-container">
                 <RecipePage name={this.state.name} yield={this.state.yield} time={this.state.time} image={this.state.image} alt={this.state.alt} description={this.state.description} ingredients={this.state.ingredients} instructions={this.state.instructions}></RecipePage>
             </div>
         )

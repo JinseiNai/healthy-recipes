@@ -1,5 +1,6 @@
 import React from 'react';
 import RecipePage from '../recipe';
+import '../recipe.css';
 import image from '../../dinner_images/rib-eye-steak-potatoes.jpg';
 
 class RibEyeSteakPotatoes extends React.Component {
@@ -24,7 +25,7 @@ class RibEyeSteakPotatoes extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="recipe-container">
                 <RecipePage name={this.state.name} yield={this.state.yield} time={this.state.time} image={this.state.image} alt={this.state.alt} description={this.state.description} ingredients={this.state.ingredients} instructions={this.state.instructions}></RecipePage>
             </div>
         )
